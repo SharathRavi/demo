@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="genere" id="CA88BBF1-9CD6-2984-84FF-2EB73742090A">
+<Attribute name="book_id" id="CA88BBF1-9CD6-2984-84FF-2EB73742090A">
 <createdBy>sharathravi</createdBy>
 <createdTime>2020-09-17 12:47:05 UTC</createdTime>
 <ownerDesignName>modler_poc</ownerDesignName>

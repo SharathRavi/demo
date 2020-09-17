@@ -55,7 +55,7 @@
 <domain>A8F30DFA-8822-D0D3-F034-A6E0BEB6B663</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="genere" id="E321F71E-A883-D95B-98AB-56E59B488FE9">
+<Attribute name="book_id" id="E321F71E-A883-D95B-98AB-56E59B488FE9">
 <createdBy>sharathravi</createdBy>
 <createdTime>2020-09-17 12:47:05 UTC</createdTime>
 <generatorID>C9F542C7-AE2E-3E65-CA7E-77E9877E4DE5</generatorID>
