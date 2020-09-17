@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54BEB2BC-CC55-F010-8CBB-D744BD5A8ACC" name="Books">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>B3292386-51AE-4590-73A6-AD53F6C4626F</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="genere" id="F1332903-172B-134C-B484-C6A9FAB10142">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>CA88BBF1-9CD6-2984-84FF-2EB73742090A</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7734294D-E3C7-242E-1DC2-4DF986F17F03</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="A18463E9-D30B-B134-9526-2EE45D50A74A">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>16EA673A-FB89-A619-3F5D-39F07453A92B</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7734294D-E3C7-242E-1DC2-4DF986F17F03</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author_last_name" id="128FF320-489D-BDB6-B646-336D9836926A">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>B09ABCBC-B540-C506-9D66-E70576A5C18D</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F572CA9-C482-B2B4-5E8D-9D55A26BB8F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author_first_name" id="76586658-823F-600D-C1B0-3790AB0E6E0F">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>86ED4766-5F5C-4317-5F81-F536A280672B</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F572CA9-C482-B2B4-5E8D-9D55A26BB8F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="06A2D1C6-AF7C-281D-FBC3-B8F9CDA9BBAB">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>B5A9F1C1-1EC1-B421-CD1D-736F4357F85C</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82AAFD58-B17D-227D-F154-1FBB297690F5" name="Books_PK">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>26B85AA0-7CDF-3ABD-2407-3BA2AA19C56E</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1332903-172B-134C-B484-C6A9FAB10142"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

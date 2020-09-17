@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E257EAEC-3084-AC1E-8DC9-31B952353193" name="Transactions">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>C1B702C6-5E01-956D-9C8D-CD70E2EE871C</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="3C8F0239-4215-CDD7-08CD-0B2865AA80E6">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>DB456FF2-9125-F555-D4F0-DC8EA95D9AEB</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A8F30DFA-8822-D0D3-F034-A6E0BEB6B663</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_date" id="AD83E8C8-2079-2CA2-88A4-A3D8ECBE3941">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>ADB9449D-C188-7FB9-A436-9C8C5487F4DD</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_type" id="8559DA3D-3724-77CC-F706-902D5C5B72BB">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>44CE2C94-4D2D-AE6A-E6EC-F8F5CB0E0A95</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A8F30DFA-8822-D0D3-F034-A6E0BEB6B663</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Books_genere" id="7AC0BA6F-C367-DB1F-33B1-9E0BB423789C">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>E321F71E-A883-D95B-98AB-56E59B488FE9</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7734294D-E3C7-242E-1DC2-4DF986F17F03</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F68FD2F-A819-BD8E-E306-67803BC15CA4" referredColumn="F1332903-172B-134C-B484-C6A9FAB10142"/>
+</associations>
+</Column>
+<Column name="Patrons_parton_id" id="34B39CA9-56DD-C213-8F52-230CD455F076">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>23F15737-F9F5-2992-B7AD-9546A6896B09</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A8F30DFA-8822-D0D3-F034-A6E0BEB6B663</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C71FE21-15A0-41F3-A6B1-730D301059E4" referredColumn="3EFB8AD3-542B-48F3-5E57-90548E4017B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20817A73-86A8-8594-C285-3C405BFF467D" name="Transactions_PK">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>A6641169-4159-A047-DBE6-42EAC6B0D988</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C8F0239-4215-CDD7-08CD-0B2865AA80E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D36B9125-86EB-5177-D0A3-930B01BCC07B" name="Transactions_Books_FK">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>C9F542C7-AE2E-3E65-CA7E-77E9877E4DE5</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AC0BA6F-C367-DB1F-33B1-9E0BB423789C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76DCA718-B4EC-8C38-2FF1-03CE915DCA30" name="Transactions_Patrons_FK">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:52 UTC</createdTime>
+<generatorID>71DD91DA-D3E1-B146-A6FA-844BB0C6F075</generatorID>
+<ownerDesignName>modler_poc</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34B39CA9-56DD-C213-8F52-230CD455F076"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

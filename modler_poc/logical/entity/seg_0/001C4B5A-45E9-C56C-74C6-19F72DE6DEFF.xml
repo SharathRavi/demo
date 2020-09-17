@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="001C4B5A-45E9-C56C-74C6-19F72DE6DEFF" name="Patrons">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:05 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<engineerTo>
+<item key="210A8A82-381F-94DB-C293-7BB8EB888442" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="parton_id" id="61FA06BF-43A7-6A9B-BDED-494F33EAF2F1">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:05 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<importedID>AFC69791-CFDB-6A03-39BB-E6E6F783B820</importedID>
+<engineerTo>
+<item key="210A8A82-381F-94DB-C293-7BB8EB888442" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A8F30DFA-8822-D0D3-F034-A6E0BEB6B663</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="AA141B2E-FF8F-6351-A8E7-7B9464B6C871">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:05 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<importedID>EAD7047D-5F6F-1737-2F01-46F6F578301C</importedID>
+<engineerTo>
+<item key="210A8A82-381F-94DB-C293-7BB8EB888442" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F572CA9-C482-B2B4-5E8D-9D55A26BB8F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="74268B05-B9AD-0D1A-C8AA-47C44DEFEBB0">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:05 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<importedID>1834F4E2-034C-665E-07D3-4AC3A68CA4A4</importedID>
+<engineerTo>
+<item key="210A8A82-381F-94DB-C293-7BB8EB888442" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F572CA9-C482-B2B4-5E8D-9D55A26BB8F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_address" id="3FC7E03E-E964-792C-4C0B-2DA24C757CBA">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:05 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<importedID>082398EE-B22D-3907-F700-2FF8FB31AED8</importedID>
+<engineerTo>
+<item key="210A8A82-381F-94DB-C293-7BB8EB888442" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CB234B07-3736-D923-1D39-4F1F668665A2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="8E894D15-ECED-7A2E-517D-A646372C9655">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:05 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<importedID>6E2AADEB-BDB3-A5DE-F8FD-E32A17ECBC76</importedID>
+<engineerTo>
+<item key="210A8A82-381F-94DB-C293-7BB8EB888442" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5647A2D3-04D3-806E-F064-19A0DA5BAB33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="4C318B3D-648D-CA32-0379-96737B511F59">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:05 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<importedID>2CCB6BC3-0513-47BD-0EB2-13DEA902321C</importedID>
+<engineerTo>
+<item key="210A8A82-381F-94DB-C293-7BB8EB888442" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36C779F9-F407-081A-4A18-90239DDF80C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip" id="58FA8FDF-1D4A-C6D6-5B11-1C0896574771">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:05 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<importedID>20B8CB4F-BDC7-94AD-C738-EE79C9750415</importedID>
+<engineerTo>
+<item key="210A8A82-381F-94DB-C293-7BB8EB888442" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E30474DB-8D16-4178-311D-6F0DE8F1E1C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="824CE500-238F-977C-E0D4-99B067FD4759">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:05 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<importedID>2FE4C84F-297D-6778-44FD-973A278543EE</importedID>
+<engineerTo>
+<item key="210A8A82-381F-94DB-C293-7BB8EB888442" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C28DEA63-71BE-51B1-FDD4-F0D9642EC7F3" name="patron PK">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:47:05 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="210A8A82-381F-94DB-C293-7BB8EB888442" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61FA06BF-43A7-6A9B-BDED-494F33EAF2F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

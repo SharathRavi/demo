@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modler_poc" id="ACC9EDB7-0680-9CA9-84D8-8535EE45F7BC" version="3.5">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 12:46:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>ACC9EDB7-0680-9CA9-84D8-8535EE45F7BC</designId>
+</OSDM_Design>
