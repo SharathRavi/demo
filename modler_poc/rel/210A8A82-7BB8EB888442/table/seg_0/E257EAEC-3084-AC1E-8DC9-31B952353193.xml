@@ -42,7 +42,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Books_genere" id="7AC0BA6F-C367-DB1F-33B1-9E0BB423789C">
+<Column name="Books_book_id" id="7AC0BA6F-C367-DB1F-33B1-9E0BB423789C">
 <createdBy>sharathravi</createdBy>
 <createdTime>2020-09-17 12:47:52 UTC</createdTime>
 <generatorID>E321F71E-A883-D95B-98AB-56E59B488FE9</generatorID>
