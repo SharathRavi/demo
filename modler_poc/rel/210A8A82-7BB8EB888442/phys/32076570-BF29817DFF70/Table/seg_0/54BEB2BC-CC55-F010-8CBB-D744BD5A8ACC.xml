@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Books" directorySegmentName="seg_0" id="54BEB2BC-CC55-F010-8CBB-D744BD5A8ACC">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 13:19:12 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="rating" id="06A2D1C6-AF7C-281D-FBC3-B8F9CDA9BBAB">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 13:19:12 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="author_last_name" id="128FF320-489D-BDB6-B646-336D9836926A">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 13:19:12 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="author_first_name" id="76586658-823F-600D-C1B0-3790AB0E6E0F">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 13:19:12 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="title" id="A18463E9-D30B-B134-9526-2EE45D50A74A">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 13:19:12 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="book_id" id="F1332903-172B-134C-B484-C6A9FAB10142">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 13:19:12 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Books_PK" id="82AAFD58-B17D-227D-F154-1FBB297690F5">
+<createdBy>sharathravi</createdBy>
+<createdTime>2020-09-17 13:19:12 UTC</createdTime>
+<ownerDesignName>modler_poc</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
